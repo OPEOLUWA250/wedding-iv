@@ -268,12 +268,12 @@ button {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-	color: #fc3e59;
+	color: #FFCDD2;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-	color: #fc3e59;
+	color: #FFCDD2;
 }
 
 
@@ -320,11 +320,13 @@ button {
 }
 
 .custom_menu li a:hover {
-	color: #fc3e59;
+	color: #FFCDD2;
+	opacity: 1;
 }
 
 .custom_menu li.active a {
-	color: #fc3e59;
+	color: #FFCDD2;
+	opacity: 1;
 }
 
 .social_icon {
@@ -446,11 +448,12 @@ button {
 	float: left;
 	font-size: 40px;
 	text-align: center;
-	color: #262626;
+	color: #000;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: octinSportsRg;
-	border-top: 1px solid #b7b7b7;
+	border-top: 1px solid rgb(206, 201, 201) ;
+	opacity: 1;
 	padding-top: 30px;
 }
 
@@ -462,6 +465,7 @@ button {
 	margin: 0 auto;
 	text-align: center;
 	background-image: url(../images/bg-icon.png);
+	opacity: 0.3;
 	left: 0px;
 	right: 0px;
 	top: -13px;
@@ -557,12 +561,12 @@ button {
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: rgb(219, 199, 180, 0.8);
+	background-color: #7df77d;
 	margin: 0 auto;
 }
 
 .container_main:hover .overlay {
-	opacity: 1;
+	opacity: 0.8;
 }
 
 .container_main {
@@ -677,16 +681,6 @@ button {
 	padding-top: 30px;
 }
 
-.seemore_bt a {
-	width: 100%;
-	float: left;
-	font-size: 18px;
-	color: #ffffff;
-	background-color: #fc3e59;
-	text-align: center;
-	padding: 10px 0px;
-	font-family: octinSportsRg;
-}
 
 .seemore_bt a:hover {
 	color: #000;
@@ -702,8 +696,12 @@ button {
 /* story section end */
 
 
-/* contact section start */
+/* rsvp section start */
  
+
+.call-now {
+ font-size: 1.5rem;
+}
 
 .enjoy_text {
 	width: 90%;
@@ -743,12 +741,19 @@ button {
 	background-color: #ffffff;
 	border-radius: 5px;
 	padding-bottom: 50px;
-	box-shadow: 0px 7px 22px 2px #e0dede;
+	box-shadow: 0px 7px 22px 2px #585656;
 }
 
-.color_bg {
+.color_bg_male {
 	width: 100%;
-	background-color: #e83d56;
+	background-color: #7df77d;
+	height: 150px;
+	border-radius: 5px;
+}
+
+.color_bg_female {
+	width: 100%;
+	background-color: #FFCDD2;
 	height: 150px;
 	border-radius: 5px;
 }
@@ -763,7 +768,7 @@ button {
 	width: 100%;
 	font-size: 20px;
 	text-align: center;
-	color: #e83d56;
+	color: #000;
 	text-transform: uppercase;
 	font-family: octinSportsRg;
 	font-weight: bold;
@@ -818,112 +823,34 @@ button {
 	overflow: initial;
 }
 
+/* rsvp section end */
 
-/* contact section end */
+/* footer area */
 
-
-/* footer section start */
-
-.footer_section {
-	width: 100%;
-	float: left;
-	background-color: #363636;
-	height: auto;
-	padding-bottom: 20px;
+.footer-area .fonts h4 {
+	font-size: 1.5rem;
 }
 
-.footer_logo {
-	width: 100%;
-	text-align: center;
+.footer-area .copyright .fonts a > i {
+	font-size: 2rem;
+	padding: 2rem;
+	color: #555;
 }
 
-.contact_taxt {
-	width: 100%;
-	float: left;
-	margin-top: 50px;
+.footer-area .copyright .fonts a:hover > i,
+.footer-area .copyright .fonts a:focus > i {
+	color: #FFCDD2;
 }
 
-.contact_taxt a {
-	width: 100%;
-	float: left;
-	font-size: 24px;
-	color: #ffffff;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
+.footer-area .copyrights .para a {
+	text-decoration: none;
 }
 
-.contact_taxt a:hover {
-	color: red;
+.footer-area .navbar-brand {
+	font-size: 2rem;
 }
 
-.contact_main {
-	width: 100%;
-	margin: 0 auto;
-	padding-top: 30px;
-	border-bottom: 1px solid #4e4e4e;
-	text-align: center;
-}
-
-.contact_main ul {
-	margin: 0px;
-	padding: 0px;
-	display: inline-block;
-	text-align: center;
-}
-
-.contact_main li {
-	float: left;
-	font-size: 16px;
-	color: #ffffff;
-	padding: 30px 30px 30px 30px;
-}
-
-.contact_main li a {
-	color: #ffffff;
-}
-
-.contact_main li a:hover {
-	color: #fc3e59;
-}
+/* End footer area */
 
 
-/* footer section end */
-
-
-/* copyright section start */
-
-.copyright_section {
-	width: 100%;
-	float: left;
-	background-color: #363636;
-	height: auto;
-}
-
-.copyright_text {
-	width: 100%;
-	float: left;
-	font-size: 16px;
-	color: #ffffff;
-	text-align: center;
-	margin-left: 0px;
-}
-
-.copyright_text a {
-	color: #ffffff;
-}
-
-.copyright_text a:hover {
-	color: #e81d42;
-}
-
-
-/* copyright section end */
-
-.margin_top90 {
-	margin-top: 90px;
-}
-
-.margin_90 {
-	margin: 90px 0px;
-}
+ 

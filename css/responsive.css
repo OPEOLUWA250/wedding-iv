@@ -7,6 +7,13 @@
     .header-search {
         padding: 15px 0px;
     }
+
+    .image-long {
+        height: 35.5vh;
+        width: 100vw;
+        display: block;
+        margin: 0rem 0;
+    }
 }
 
 
@@ -88,6 +95,16 @@
     .cart-content-right {
         padding-bottom: 5px;
     }
+    .footer-area .copyright .fonts a > i {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        color: #555;
+    }
+
+    .footer-area .copyright .fonts a:hover > i,
+.footer-area .copyright .fonts a:focus > i {
+	color: #FFCDD2;
+}
     .banner_section {
         height: 60vh;
     }
