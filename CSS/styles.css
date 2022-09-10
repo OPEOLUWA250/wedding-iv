@@ -1,0 +1,313 @@
+body::before {
+    display: block;
+    content: '';
+    height:0px;
+}
+
+/* navbar area */
+
+.navbar_fixed {
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+}
+.navbar .navbar-nav {
+    margin-right: 0.5rem;
+}
+
+  .navbar {
+      background: #7c56560a;
+  }
+
+  .navbar .navbar-brand  {
+      font-size: 2rem;
+      color: #000;
+      background: linear-gradient(70deg, #FFCDD2 40%, #98FF98 100% );
+  }
+
+  .navbar .nav-link{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 6px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem;
+    color: #141313;
+}
+
+a.nav-link.active{
+    background: #08B7A5;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+ .nav-link:hover{
+    background: #08B7A5;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+  
+/* End navbar area */
+
+ 
+/* introduction */
+
+.site-introduction {
+    background-color: #fff;
+    color: #000;
+}
+
+ .site-introduction .site-title {
+     margin-top: 5rem;
+ }
+
+.site-introduction h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.site-introduction .img-fluid {
+    margin-right: 6.5rem;
+}
+ 
+
+/* about area */
+ .about-area {
+     background-color: #fff;
+     color: #000;
+     margin: 3rem 0;
+ }
+
+ .about-area h1 {
+     font-size: 2.5rem;
+ }
+
+ .about-area h3 {
+     font-size: 1.5rem;
+ }
+
+ .about-area  th {
+     font-size: 1.5rem;
+     padding-right: 0.5rem;
+ }
+
+ .about-area .about-text {
+     margin-left: 4.5rem;
+ }
+
+ /* End about area */
+ 
+
+ /* services area */
+  .services {
+      background-color: #fff;
+      color: #000;
+      margin: 5rem 0; 
+  }
+
+  .services .card p > a {
+      text-decoration: none;
+      color: #000;
+      font-size: 1.5rem;
+  }
+
+  .services .card {
+      background: linear-gradient(70deg, #FFCDD2 40%, #98FF98 100% );
+      box-shadow: 0px 10px 30px rgba(6, 1, 29, 0.473);
+      padding-bottom: 1rem;
+  }
+
+  .services .card .card-body h3 {
+      color: #000;
+  }
+
+  .services .services-header {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+  }
+
+  .services .card-body .rsvp-img {
+      width: 15%;
+      border-radius: 100%;
+      margin-bottom: 1rem;
+  }
+
+/* 
+  .services .font-awesome {
+      color: #fff;
+      font-size: 3rem ;
+  } */
+
+  /* Project area */
+
+ .project-area {
+   padding-left: 1rem;
+ }
+
+ .project-area .our-project {
+     /* padding-left: 3rem; */
+ }
+
+ .project-area .title-h1 {
+    font-size: 2rem;
+}
+
+.project-area h4, span {
+    padding-left: 2rem;
+}
+
+.button-group  button{
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.project-area .button-group .project-button:active,
+ .project-button:focus {
+     outline: 0px !important; 
+    color: #fff;
+     background: linear-gradient(90deg, #4458dc 0%, #854fee 100% ); 
+     font-weight: 900; 
+     border: linear-gradient(90deg, #4458dc 0%, #854fee 100% );
+}
+
+.project-area button:hover {
+    outline: 0px !important; 
+    color: #141313;
+    font-weight: 900; 
+    border: linear-gradient(90deg, #4458dc 0%, #854fee 100% );
+}
+
+.project-area .grid .our-project .img a img {
+    margin: 1.5rem 0;
+    width: 90%;
+    height: 80vh;
+}
+
+.project-area .grid .our-project .img a:hover img {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #6d6a6a);
+}
+  
+/* End Project area */
+
+/* footer area */
+
+  .footer-area .copyright .fonts a > i {
+      font-size: 2rem;
+      padding: 2rem;
+      color: #999;
+  }
+
+  .footer-area .copyright .fonts a:hover > i,
+  .footer-area .copyright .fonts a:focus > i {
+      color: #08B7A5;
+  }
+ 
+  .footer-area .copyrights .para > a {
+      text-decoration: none;
+      font-size: 1rem;
+      color: #08B7A5;
+  }
+ 
+
+/* End footer area */
+
+ 
+
+
+ 
+
+
+
+
+
+@media(min-width: 768px)  {
+    .news-input{
+        width: 75%;
+    }
+
+    .subscribe {
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+        overflow: hidden;
+        margin: 0 10rem;
+        flex-direction: column;
+    }
+
+   
+}
+
+@media (max-width: 390px) {
+  
+    .navbar .navbar-brand {
+        font-size: 2.5rem;
+    }
+
+    .site-introduction .site-title {
+        margin: 1.5rem 0;
+    }
+
+    .site-introduction .img-fluid {
+        margin-right: 0;
+    }
+
+    .button-group  button {
+        font-size: 0.9rem;
+    }
+
+    .subscribe .input-group {
+        left: 0;
+    }
+
+    
+.project-area .grid .our-project .img a img {
+    margin: 1.5rem 0;
+    width: 95%;
+    height: 50vh;
+}
+    
+  .services .card-body .rsvp-img {
+    width: 25%;
+    border-radius: 100%;
+}
+
+    
+ .about-area .about-text {
+    margin-left: 0rem;
+}
+
+    .project-area button:hover {
+        outline: 0px !important; 
+        color: #fff;
+        font-weight: 900; 
+        border: linear-gradient(90deg, #4458dc 0%, #854fee 100% );
+    }
+
+    .footer-area .copyright .fonts a > i {
+        font-size: 2rem;
+        padding: 0.5rem;
+        color: #999;
+    }
+
+    .footer-area .copyrights .para a {
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+  
+
+}
