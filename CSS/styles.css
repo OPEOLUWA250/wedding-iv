@@ -314,6 +314,44 @@ a.nav-link.active{
     }
 
     
+ .site-introduction h1 {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.site-introduction h2 {
+   font-size: 1.5rem;
+   font-weight: 400;
+   color: #666;
+}
+
+.site-introduction h3 {
+   font-style: italic;
+   font-weight: 500;
+}
+
+.site-introduction h5 {
+   font-size: 2.5rem;
+   background: rgba(153, 153, 153, 0.171);
+}
+
+.site-introduction h6 {
+   font-size: 1.2rem;
+}
+
+
+.modal-btn {
+    background: linear-gradient(70deg, #98FF98 40%, #FFCDD2 100% );
+    border: none;
+  }
+
+  .modal-btn:hover,
+  .modal-btn:focus {
+    background: linear-gradient(70deg, #FFCDD2 40%, #98FF98 100% );
+  }
+
+    
 .project-area .grid .our-project .img a img {
     margin: 1.5rem 0;
     width: 99%;
