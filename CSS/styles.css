@@ -26,7 +26,7 @@ body::before {
   .navbar .navbar-brand  {
       font-size: 2rem;
       color: #000;
-      background: linear-gradient(70deg, #FFCDD2 40%, #98FF98 100% );
+      background: linear-gradient(70deg, #98FF98 40%, #FFCDD2 100% );
   }
 
   .navbar .nav-link{
@@ -66,13 +66,34 @@ a.nav-link.active{
 }
 
  .site-introduction .site-title {
-     margin-top: 5rem;
+     margin-top: 3rem;
+     margin-right: 2rem;
  }
 
-.site-introduction h1 {
+ .site-introduction h1 {
+     font-size: 2.5rem;
+     font-style: italic;
+     font-family: cursive;
+ }
+
+.site-introduction h2 {
     font-size: 1.5rem;
     font-weight: 400;
     color: #666;
+}
+
+.site-introduction h3 {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.site-introduction h5 {
+    font-size: 2.5rem;
+    background: rgba(153, 153, 153, 0.171);
+}
+
+.site-introduction h6 {
+    font-size: 1.2rem;
 }
 
 .site-introduction .img-fluid {
@@ -120,8 +141,13 @@ a.nav-link.active{
       font-size: 1.5rem;
   }
 
+  .services .card p > a:hover,
+  .services .card p > a:focus {
+      color: #08B7A5;
+  }
+
   .services .card {
-      background: linear-gradient(70deg, #FFCDD2 40%, #98FF98 100% );
+    background: linear-gradient(70deg, #98FF98 40%, #FFCDD2 100% );
       box-shadow: 0px 10px 30px rgba(6, 1, 29, 0.473);
       padding-bottom: 1rem;
   }
@@ -142,6 +168,16 @@ a.nav-link.active{
       margin-bottom: 1rem;
   }
 
+  .modal-btn {
+    background: linear-gradient(70deg, #98FF98 40%, #FFCDD2 100% );
+    border: none;
+  }
+
+  .modal-btn:hover,
+  .modal-btn:focus {
+    background: linear-gradient(70deg, #FFCDD2 40%, #98FF98 100% );
+  }
+
 /* 
   .services .font-awesome {
       color: #fff;
@@ -149,14 +185,7 @@ a.nav-link.active{
   } */
 
   /* Project area */
-
- .project-area {
-   padding-left: 1rem;
- }
-
- .project-area .our-project {
-     /* padding-left: 3rem; */
- }
+ 
 
  .project-area .title-h1 {
     font-size: 2rem;
@@ -287,8 +316,8 @@ a.nav-link.active{
     
 .project-area .grid .our-project .img a img {
     margin: 1.5rem 0;
-    width: 95%;
-    height: 50vh;
+    width: 99%;
+    height: 55vh;
 }
     
   .services .card-body .rsvp-img {
