@@ -16,7 +16,7 @@ body::before {
     z-index: 999;
 }
 .navbar .navbar-nav {
-    margin-right: 0.5rem;
+    margin-right: 3rem;
 }
 
   .navbar {
@@ -65,6 +65,11 @@ a.nav-link.active{
     color: #000;
 }
 
+.intro-image {
+    border: 5px solid #98FF98;
+    height: 95vh;
+}
+
  .site-introduction .site-title {
      margin-top: 3rem;
      margin-right: 2rem;
@@ -101,6 +106,17 @@ a.nav-link.active{
 }
  
 
+/* date */
+.date .exact-date {
+    font-style: italic;
+    font-size: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.date .countdown {
+    font-size: 1.5rem;
+}
+
 /* about area */
  .about-area {
      background-color: #fff;
@@ -123,6 +139,10 @@ a.nav-link.active{
 
  .about-area .about-text {
      margin-left: 4.5rem;
+ }
+
+ .venue-img {
+     border: 5px solid #98FF98;
  }
 
  /* End about area */
@@ -203,26 +223,12 @@ a.nav-link.active{
     font-weight: 600;
 }
 
-.project-area .button-group .project-button:active,
- .project-button:focus {
-     outline: 0px !important; 
-    color: #fff;
-     background: linear-gradient(90deg, #4458dc 0%, #854fee 100% ); 
-     font-weight: 900; 
-     border: linear-gradient(90deg, #4458dc 0%, #854fee 100% );
-}
-
-.project-area button:hover {
-    outline: 0px !important; 
-    color: #141313;
-    font-weight: 900; 
-    border: linear-gradient(90deg, #4458dc 0%, #854fee 100% );
-}
 
 .project-area .grid .our-project .img a img {
     margin: 1.5rem 0;
     width: 90%;
     height: 90vh;
+    border: 5px solid #98FF98;
 }
 
 .project-area .grid .our-project .img a:hover img {
@@ -286,6 +292,10 @@ a.nav-link.active{
     .navbar .navbar-brand {
         font-size: 2.5rem;
     }
+
+    .about-area .about-text {
+        margin-left: 4.5rem;
+    }
  
 
 }
@@ -295,7 +305,14 @@ a.nav-link.active{
   
     .navbar .navbar-brand {
         font-size: 2.5rem;
+        padding: 0;
     }
+
+    .intro-image {
+        border: 5px solid #98FF98;
+        height: 55vh;
+    }
+    
 
     .site-introduction .site-title {
         margin: 1.5rem 0;
@@ -340,6 +357,12 @@ a.nav-link.active{
    font-size: 1.2rem;
 }
 
+.date .exact-date {
+    font-style: italic;
+    font-size: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 
 .modal-btn {
     background: linear-gradient(70deg, #98FF98 40%, #FFCDD2 100% );
@@ -355,7 +378,7 @@ a.nav-link.active{
 .project-area .grid .our-project .img a img {
     margin: 1.5rem 0;
     width: 99%;
-    height: 55vh;
+    height: 58vh;
 }
     
   .services .card-body .rsvp-img {
@@ -368,12 +391,7 @@ a.nav-link.active{
     margin-left: 0rem;
 }
 
-    .project-area button:hover {
-        outline: 0px !important; 
-        color: #fff;
-        font-weight: 900; 
-        border: linear-gradient(90deg, #4458dc 0%, #854fee 100% );
-    }
+
 
     .footer-area .copyright .fonts a > i {
         font-size: 2rem;
