@@ -70,10 +70,7 @@ a.nav-link.active{
     height: 95vh;
 }
 
- .site-introduction .site-title {
-     margin-top: 3rem;
-     margin-right: 2rem;
- }
+ 
 
  .site-introduction h1 {
      font-size: 2.5rem;
@@ -107,6 +104,16 @@ a.nav-link.active{
  
 
 /* date */
+
+.date {
+    margin-top: 2rem;
+}
+
+.date .card-date {
+    background: #000;
+    color: #fff;
+}
+
 .date .exact-date {
     font-style: italic;
     font-size: 3rem;
@@ -294,8 +301,29 @@ a.nav-link.active{
     }
 
     .about-area .about-text {
-        margin-left: 4.5rem;
+        margin-left: 0;
     }
+
+    .site-introduction .site-title {
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    
+.site-introduction .img-fluid {
+    margin-right: 0;
+    height: 55vh;
+}
+
+.site-introduction {
+    margin-top: 2rem;
+}
+
+.project-area .grid .our-project .img a img {
+    width: 100vh;
+    height: 55vh;
+    border: 5px solid #98FF98;
+}
  
 
 }
