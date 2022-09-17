@@ -324,17 +324,13 @@ a.nav-link.active{
     height: 55vh;
     border: 5px solid #98FF98;
 }
-
-.footer-area .copyright .fonts a > i {
-    font-size: 2rem;
-    padding: 0.5rem;
-    color: #999;
-}
+ 
 
 .footer-area .copyrights .para a {
     text-decoration: none;
     font-size: 1.5rem;
 }
+ 
  
 
 }
