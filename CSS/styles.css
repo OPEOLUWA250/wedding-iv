@@ -24,7 +24,7 @@ body::before {
   }
 
   .navbar .navbar-brand  {
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: #000;
       background: linear-gradient(70deg, #98FF98 40%, #FFCDD2 100% );
   }
