@@ -297,7 +297,7 @@ a.nav-link.active{
 @media (min-width: 391px) and (max-width: 500px) {
 
     .navbar .navbar-brand {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .about-area .about-text {
@@ -339,7 +339,7 @@ a.nav-link.active{
 @media (max-width: 390px) {
   
     .navbar .navbar-brand {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         padding: 0;
     }
 
