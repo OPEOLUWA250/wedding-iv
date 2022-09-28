@@ -132,7 +132,7 @@ a.nav-link.active{
  }
 
  .about-area h1 {
-     font-size: 2.5rem;
+     font-size: 2rem;
  }
 
  .about-area h3 {
@@ -258,7 +258,6 @@ a.nav-link.active{
   }
  
   .footer-area .copyrights .para > a {
-      text-decoration: none;
       font-size: 1rem;
       color: #08B7A5;
   }
@@ -327,7 +326,6 @@ a.nav-link.active{
  
 
 .footer-area .copyrights .para a {
-    text-decoration: none;
     font-size: 1.5rem;
 }
  
@@ -427,15 +425,7 @@ a.nav-link.active{
 }
 
 
-
-    .footer-area .copyright .fonts a > i {
-        font-size: 2rem;
-        padding: 0.5rem;
-        color: #999;
-    }
-
     .footer-area .copyrights .para a {
-        text-decoration: none;
         font-size: 1.5rem;
     }
   
