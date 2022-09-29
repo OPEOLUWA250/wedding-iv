@@ -428,6 +428,24 @@ a.nav-link.active{
     .footer-area .copyrights .para a {
         font-size: 1.5rem;
     }
-  
+
+}
+
+/*  Tablets */
+@media (min-width: 768px) and (max-width: 1400px) {
+
+   .site-introduction {
+       margin-top: 2rem;
+   }
+
+   .site-introduction .intro-image {
+       margin-left: 2rem;
+       height: 58vh;
+   }
+
+   .project-area .grid .our-project .img a img {
+       height: 60vh;
+       width: 90vw;
+   }
 
 }
